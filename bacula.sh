@@ -1,3 +1,7 @@
+#!/bin/bash
+
+echo " Instalação BACULA"
+sleep 3
 dnf update -y
 dnf install epel-release -y
 SELINUX=disabled
